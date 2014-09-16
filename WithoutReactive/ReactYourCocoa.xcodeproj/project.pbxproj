@@ -1,0 +1,910 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B3316E019C7A96900AF2D16 /* ReactYourCocoa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B3316DE19C7A96900AF2D16 /* ReactYourCocoa.xcdatamodeld */; };
+		3B3316E719C7A96900AF2D16 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B3316E619C7A96900AF2D16 /* Images.xcassets */; };
+		3B3316F619C7A96900AF2D16 /* ReactYourCocoaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3316F519C7A96900AF2D16 /* ReactYourCocoaTests.swift */; };
+		3B33172A19C7AFBB00AF2D16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B33172919C7AFBB00AF2D16 /* ViewController.swift */; };
+		3B33172B19C7AFBB00AF2D16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B33172919C7AFBB00AF2D16 /* ViewController.swift */; };
+		3B33172E19C7AFE200AF2D16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B33172D19C7AFE200AF2D16 /* AppDelegate.swift */; };
+		3B33172F19C7AFE200AF2D16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B33172D19C7AFE200AF2D16 /* AppDelegate.swift */; };
+		3B33173219C7B05A00AF2D16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B33173019C7B05A00AF2D16 /* Main.storyboard */; };
+		3B33173319C7B05A00AF2D16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B33173019C7B05A00AF2D16 /* Main.storyboard */; };
+		3B33173419C7B05A00AF2D16 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B33173119C7B05A00AF2D16 /* LaunchScreen.xib */; };
+		3B33173519C7B05A00AF2D16 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B33173119C7B05A00AF2D16 /* LaunchScreen.xib */; };
+		3B33174719C7D88200AF2D16 /* login-facebook-btn-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B33173F19C7D88200AF2D16 /* login-facebook-btn-pressed.png */; };
+		3B33174819C7D88200AF2D16 /* login-facebook-btn-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B33173F19C7D88200AF2D16 /* login-facebook-btn-pressed.png */; };
+		3B33174919C7D88200AF2D16 /* login-facebook-btn-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B33174019C7D88200AF2D16 /* login-facebook-btn-pressed@2x.png */; };
+		3B33174A19C7D88200AF2D16 /* login-facebook-btn-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B33174019C7D88200AF2D16 /* login-facebook-btn-pressed@2x.png */; };
+		3B33174B19C7D88200AF2D16 /* login-facebook-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B33174119C7D88200AF2D16 /* login-facebook-btn.png */; };
+		3B33174C19C7D88200AF2D16 /* login-facebook-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B33174119C7D88200AF2D16 /* login-facebook-btn.png */; };
+		3B33174D19C7D88200AF2D16 /* login-facebook-btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B33174219C7D88200AF2D16 /* login-facebook-btn@2x.png */; };
+		3B33174E19C7D88200AF2D16 /* login-facebook-btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B33174219C7D88200AF2D16 /* login-facebook-btn@2x.png */; };
+		3B33174F19C7D88200AF2D16 /* login-twitter-btn-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B33174319C7D88200AF2D16 /* login-twitter-btn-pressed.png */; };
+		3B33175019C7D88200AF2D16 /* login-twitter-btn-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B33174319C7D88200AF2D16 /* login-twitter-btn-pressed.png */; };
+		3B33175119C7D88200AF2D16 /* login-twitter-btn-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B33174419C7D88200AF2D16 /* login-twitter-btn-pressed@2x.png */; };
+		3B33175219C7D88200AF2D16 /* login-twitter-btn-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B33174419C7D88200AF2D16 /* login-twitter-btn-pressed@2x.png */; };
+		3B33175319C7D88200AF2D16 /* login-twitter-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B33174519C7D88200AF2D16 /* login-twitter-btn.png */; };
+		3B33175419C7D88200AF2D16 /* login-twitter-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B33174519C7D88200AF2D16 /* login-twitter-btn.png */; };
+		3B33175519C7D88200AF2D16 /* login-twitter-btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B33174619C7D88200AF2D16 /* login-twitter-btn@2x.png */; };
+		3B33175619C7D88200AF2D16 /* login-twitter-btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B33174619C7D88200AF2D16 /* login-twitter-btn@2x.png */; };
+		3B49837419C7FE6400F92332 /* NSArray+ArrayManipulationMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B49833C19C7FE6400F92332 /* NSArray+ArrayManipulationMethods.m */; };
+		3B49837519C7FE6400F92332 /* NSArray+EnumExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B49833E19C7FE6400F92332 /* NSArray+EnumExtensions.m */; };
+		3B49837619C7FE6400F92332 /* NSDate+DateFormatMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B49834019C7FE6400F92332 /* NSDate+DateFormatMethods.m */; };
+		3B49837819C7FE6400F92332 /* NSString+ArrayCreateMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B49834419C7FE6400F92332 /* NSString+ArrayCreateMethods.m */; };
+		3B49837919C7FE6400F92332 /* NSString+StringMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B49834619C7FE6400F92332 /* NSString+StringMethods.m */; };
+		3B49837A19C7FE6400F92332 /* NSTimer+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B49834819C7FE6400F92332 /* NSTimer+Blocks.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3B49837B19C7FE6400F92332 /* UIColor+AppColorMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B49834A19C7FE6400F92332 /* UIColor+AppColorMethods.m */; };
+		3B49837C19C7FE6400F92332 /* UIColor+CreateMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B49834C19C7FE6400F92332 /* UIColor+CreateMethods.m */; };
+		3B49837E19C7FE6400F92332 /* UIView+AnimateHidden.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B49835019C7FE6400F92332 /* UIView+AnimateHidden.m */; };
+		3B49837F19C7FE6400F92332 /* UIViewController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B49835219C7FE6400F92332 /* UIViewController+BackButtonHandler.m */; };
+		3B49838019C7FE6400F92332 /* EWFacebookGraphApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B49835519C7FE6400F92332 /* EWFacebookGraphApiClient.m */; };
+		3B49838119C7FE6400F92332 /* EWFacebookParseUserClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B49835719C7FE6400F92332 /* EWFacebookParseUserClient.m */; };
+		3B49838219C7FE6400F92332 /* EWParseCloudCodeApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B49835919C7FE6400F92332 /* EWParseCloudCodeApiClient.m */; };
+		3B49838319C7FE6400F92332 /* EWParseObjectsApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B49835B19C7FE6400F92332 /* EWParseObjectsApiClient.m */; };
+		3B49838419C7FE6400F92332 /* EWTwitterApiParseUserClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B49835D19C7FE6400F92332 /* EWTwitterApiParseUserClient.m */; };
+		3B49838519C7FE6400F92332 /* EWFacebookPermissions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B49836019C7FE6400F92332 /* EWFacebookPermissions.m */; };
+		3B49838619C7FE6400F92332 /* EWMessagesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B49836419C7FE6400F92332 /* EWMessagesManager.m */; };
+		3B49838719C7FE6400F92332 /* EWMessagingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B49836619C7FE6400F92332 /* EWMessagingManager.m */; };
+		3B49838819C7FE6400F92332 /* EWSocialNetworksContactsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B49836819C7FE6400F92332 /* EWSocialNetworksContactsManager.m */; };
+		3B49838A19C7FE6400F92332 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 3B49837019C7FE6400F92332 /* LICENSE */; };
+		3B49838B19C7FE6400F92332 /* PulldownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B49837219C7FE6400F92332 /* PulldownMenu.m */; };
+		3B49838C19C7FE6400F92332 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3B49837319C7FE6400F92332 /* README.md */; };
+		3B49839819C7FE7600F92332 /* EWMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B49838F19C7FE7600F92332 /* EWMessage.m */; };
+		3B49839919C7FE7600F92332 /* EWMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B49838F19C7FE7600F92332 /* EWMessage.m */; };
+		3B49839A19C7FE7600F92332 /* EWMessageSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B49839119C7FE7600F92332 /* EWMessageSession.m */; };
+		3B49839B19C7FE7600F92332 /* EWMessageSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B49839119C7FE7600F92332 /* EWMessageSession.m */; };
+		3B49839C19C7FE7600F92332 /* EWRecipient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B49839319C7FE7600F92332 /* EWRecipient.m */; };
+		3B49839D19C7FE7600F92332 /* EWRecipient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B49839319C7FE7600F92332 /* EWRecipient.m */; };
+		3B49839E19C7FE7600F92332 /* EWUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B49839519C7FE7600F92332 /* EWUser.m */; };
+		3B49839F19C7FE7600F92332 /* EWUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B49839519C7FE7600F92332 /* EWUser.m */; };
+		3B4983A019C7FE7600F92332 /* EWUserSocialData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B49839719C7FE7600F92332 /* EWUserSocialData.m */; };
+		3B4983A119C7FE7600F92332 /* EWUserSocialData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B49839719C7FE7600F92332 /* EWUserSocialData.m */; };
+		3B4983A619C81F5100F92332 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B4983A519C81F5100F92332 /* logo@2x.png */; };
+		3B4983A719C81F5100F92332 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B4983A519C81F5100F92332 /* logo@2x.png */; };
+		3B4983A919C8343700F92332 /* logout-reactyourcocoa-btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B4983A819C8343700F92332 /* logout-reactyourcocoa-btn@2x.png */; };
+		3B4983AA19C8343700F92332 /* logout-reactyourcocoa-btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B4983A819C8343700F92332 /* logout-reactyourcocoa-btn@2x.png */; };
+		D7AEDC5509C84EA198B1363F /* libPods-ReactYourCocoa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C7D0F1C235F49D4B66C9349 /* libPods-ReactYourCocoa.a */; };
+		DB8443C447EF413BA0B57E72 /* libPods-ReactYourCocoaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93FE3289D74A41E5AE8CF37A /* libPods-ReactYourCocoaTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B3316F019C7A96900AF2D16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B3316CF19C7A96900AF2D16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B3316D619C7A96900AF2D16;
+			remoteInfo = ReactYourCocoa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B3316D719C7A96900AF2D16 /* ReactYourCocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactYourCocoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B3316DB19C7A96900AF2D16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B3316DF19C7A96900AF2D16 /* ReactYourCocoa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReactYourCocoa.xcdatamodel; sourceTree = "<group>"; };
+		3B3316E619C7A96900AF2D16 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3B3316EF19C7A96900AF2D16 /* ReactYourCocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactYourCocoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B3316F419C7A96900AF2D16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B3316F519C7A96900AF2D16 /* ReactYourCocoaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactYourCocoaTests.swift; sourceTree = "<group>"; };
+		3B33172919C7AFBB00AF2D16 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B33172D19C7AFE200AF2D16 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B33173019C7B05A00AF2D16 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3B33173119C7B05A00AF2D16 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		3B33173819C7B17000AF2D16 /* ReactYourCocoa-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactYourCocoa-Bridging-Header.h"; sourceTree = "<group>"; };
+		3B33173919C7B17100AF2D16 /* ReactYourCocoaTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactYourCocoaTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		3B33173F19C7D88200AF2D16 /* login-facebook-btn-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-facebook-btn-pressed.png"; sourceTree = "<group>"; };
+		3B33174019C7D88200AF2D16 /* login-facebook-btn-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-facebook-btn-pressed@2x.png"; sourceTree = "<group>"; };
+		3B33174119C7D88200AF2D16 /* login-facebook-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-facebook-btn.png"; sourceTree = "<group>"; };
+		3B33174219C7D88200AF2D16 /* login-facebook-btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-facebook-btn@2x.png"; sourceTree = "<group>"; };
+		3B33174319C7D88200AF2D16 /* login-twitter-btn-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-twitter-btn-pressed.png"; sourceTree = "<group>"; };
+		3B33174419C7D88200AF2D16 /* login-twitter-btn-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-twitter-btn-pressed@2x.png"; sourceTree = "<group>"; };
+		3B33174519C7D88200AF2D16 /* login-twitter-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-twitter-btn.png"; sourceTree = "<group>"; };
+		3B33174619C7D88200AF2D16 /* login-twitter-btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-twitter-btn@2x.png"; sourceTree = "<group>"; };
+		3B49833B19C7FE6400F92332 /* NSArray+ArrayManipulationMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ArrayManipulationMethods.h"; sourceTree = "<group>"; };
+		3B49833C19C7FE6400F92332 /* NSArray+ArrayManipulationMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ArrayManipulationMethods.m"; sourceTree = "<group>"; };
+		3B49833D19C7FE6400F92332 /* NSArray+EnumExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+EnumExtensions.h"; sourceTree = "<group>"; };
+		3B49833E19C7FE6400F92332 /* NSArray+EnumExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+EnumExtensions.m"; sourceTree = "<group>"; };
+		3B49833F19C7FE6400F92332 /* NSDate+DateFormatMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DateFormatMethods.h"; sourceTree = "<group>"; };
+		3B49834019C7FE6400F92332 /* NSDate+DateFormatMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DateFormatMethods.m"; sourceTree = "<group>"; };
+		3B49834319C7FE6400F92332 /* NSString+ArrayCreateMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ArrayCreateMethods.h"; sourceTree = "<group>"; };
+		3B49834419C7FE6400F92332 /* NSString+ArrayCreateMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ArrayCreateMethods.m"; sourceTree = "<group>"; };
+		3B49834519C7FE6400F92332 /* NSString+StringMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringMethods.h"; sourceTree = "<group>"; };
+		3B49834619C7FE6400F92332 /* NSString+StringMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringMethods.m"; sourceTree = "<group>"; };
+		3B49834719C7FE6400F92332 /* NSTimer+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Blocks.h"; sourceTree = "<group>"; };
+		3B49834819C7FE6400F92332 /* NSTimer+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Blocks.m"; sourceTree = "<group>"; };
+		3B49834919C7FE6400F92332 /* UIColor+AppColorMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AppColorMethods.h"; sourceTree = "<group>"; };
+		3B49834A19C7FE6400F92332 /* UIColor+AppColorMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AppColorMethods.m"; sourceTree = "<group>"; };
+		3B49834B19C7FE6400F92332 /* UIColor+CreateMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CreateMethods.h"; sourceTree = "<group>"; };
+		3B49834C19C7FE6400F92332 /* UIColor+CreateMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CreateMethods.m"; sourceTree = "<group>"; };
+		3B49834F19C7FE6400F92332 /* UIView+AnimateHidden.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AnimateHidden.h"; sourceTree = "<group>"; };
+		3B49835019C7FE6400F92332 /* UIView+AnimateHidden.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AnimateHidden.m"; sourceTree = "<group>"; };
+		3B49835119C7FE6400F92332 /* UIViewController+BackButtonHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackButtonHandler.h"; sourceTree = "<group>"; };
+		3B49835219C7FE6400F92332 /* UIViewController+BackButtonHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackButtonHandler.m"; sourceTree = "<group>"; };
+		3B49835419C7FE6400F92332 /* EWFacebookGraphApiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWFacebookGraphApiClient.h; sourceTree = "<group>"; };
+		3B49835519C7FE6400F92332 /* EWFacebookGraphApiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWFacebookGraphApiClient.m; sourceTree = "<group>"; };
+		3B49835619C7FE6400F92332 /* EWFacebookParseUserClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWFacebookParseUserClient.h; sourceTree = "<group>"; };
+		3B49835719C7FE6400F92332 /* EWFacebookParseUserClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWFacebookParseUserClient.m; sourceTree = "<group>"; };
+		3B49835819C7FE6400F92332 /* EWParseCloudCodeApiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWParseCloudCodeApiClient.h; sourceTree = "<group>"; };
+		3B49835919C7FE6400F92332 /* EWParseCloudCodeApiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWParseCloudCodeApiClient.m; sourceTree = "<group>"; };
+		3B49835A19C7FE6400F92332 /* EWParseObjectsApiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWParseObjectsApiClient.h; sourceTree = "<group>"; };
+		3B49835B19C7FE6400F92332 /* EWParseObjectsApiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWParseObjectsApiClient.m; sourceTree = "<group>"; };
+		3B49835C19C7FE6400F92332 /* EWTwitterApiParseUserClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWTwitterApiParseUserClient.h; sourceTree = "<group>"; };
+		3B49835D19C7FE6400F92332 /* EWTwitterApiParseUserClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWTwitterApiParseUserClient.m; sourceTree = "<group>"; };
+		3B49835F19C7FE6400F92332 /* EWFacebookPermissions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWFacebookPermissions.h; sourceTree = "<group>"; };
+		3B49836019C7FE6400F92332 /* EWFacebookPermissions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWFacebookPermissions.m; sourceTree = "<group>"; };
+		3B49836319C7FE6400F92332 /* EWMessagesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWMessagesManager.h; sourceTree = "<group>"; };
+		3B49836419C7FE6400F92332 /* EWMessagesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWMessagesManager.m; sourceTree = "<group>"; };
+		3B49836519C7FE6400F92332 /* EWMessagingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWMessagingManager.h; sourceTree = "<group>"; };
+		3B49836619C7FE6400F92332 /* EWMessagingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWMessagingManager.m; sourceTree = "<group>"; };
+		3B49836719C7FE6400F92332 /* EWSocialNetworksContactsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWSocialNetworksContactsManager.h; sourceTree = "<group>"; };
+		3B49836819C7FE6400F92332 /* EWSocialNetworksContactsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWSocialNetworksContactsManager.m; sourceTree = "<group>"; };
+		3B49836A19C7FE6400F92332 /* EWModalViewControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWModalViewControllerProtocol.h; sourceTree = "<group>"; };
+		3B49837019C7FE6400F92332 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3B49837119C7FE6400F92332 /* PulldownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PulldownMenu.h; sourceTree = "<group>"; };
+		3B49837219C7FE6400F92332 /* PulldownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PulldownMenu.m; sourceTree = "<group>"; };
+		3B49837319C7FE6400F92332 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3B49838E19C7FE7600F92332 /* EWMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWMessage.h; sourceTree = "<group>"; };
+		3B49838F19C7FE7600F92332 /* EWMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWMessage.m; sourceTree = "<group>"; };
+		3B49839019C7FE7600F92332 /* EWMessageSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWMessageSession.h; sourceTree = "<group>"; };
+		3B49839119C7FE7600F92332 /* EWMessageSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWMessageSession.m; sourceTree = "<group>"; };
+		3B49839219C7FE7600F92332 /* EWRecipient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWRecipient.h; sourceTree = "<group>"; };
+		3B49839319C7FE7600F92332 /* EWRecipient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWRecipient.m; sourceTree = "<group>"; };
+		3B49839419C7FE7600F92332 /* EWUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWUser.h; sourceTree = "<group>"; };
+		3B49839519C7FE7600F92332 /* EWUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWUser.m; sourceTree = "<group>"; };
+		3B49839619C7FE7600F92332 /* EWUserSocialData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWUserSocialData.h; sourceTree = "<group>"; };
+		3B49839719C7FE7600F92332 /* EWUserSocialData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWUserSocialData.m; sourceTree = "<group>"; };
+		3B4983A319C808ED00F92332 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = ../Constants/Constants.h; sourceTree = "<group>"; };
+		3B4983A419C8098A00F92332 /* Frameworks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Frameworks.h; sourceTree = "<group>"; };
+		3B4983A519C81F5100F92332 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		3B4983A819C8343700F92332 /* logout-reactyourcocoa-btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logout-reactyourcocoa-btn@2x.png"; sourceTree = "<group>"; };
+		927FB4802BC34633B8F8B27C /* Pods-ReactYourCocoaTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactYourCocoaTests.xcconfig"; path = "Pods/Pods-ReactYourCocoaTests.xcconfig"; sourceTree = "<group>"; };
+		93FE3289D74A41E5AE8CF37A /* libPods-ReactYourCocoaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactYourCocoaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C7D0F1C235F49D4B66C9349 /* libPods-ReactYourCocoa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactYourCocoa.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1852F789A145879B44EA57 /* Pods-ReactYourCocoa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactYourCocoa.xcconfig"; path = "Pods/Pods-ReactYourCocoa.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B3316D419C7A96900AF2D16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7AEDC5509C84EA198B1363F /* libPods-ReactYourCocoa.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3316EC19C7A96900AF2D16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8443C447EF413BA0B57E72 /* libPods-ReactYourCocoaTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B3316CE19C7A96900AF2D16 = {
+			isa = PBXGroup;
+			children = (
+				3B3316D919C7A96900AF2D16 /* ReactYourCocoa */,
+				3B3316F219C7A96900AF2D16 /* ReactYourCocoaTests */,
+				3B3316D819C7A96900AF2D16 /* Products */,
+				FF1852F789A145879B44EA57 /* Pods-ReactYourCocoa.xcconfig */,
+				545A00A712164B5BA48F0178 /* Frameworks */,
+				927FB4802BC34633B8F8B27C /* Pods-ReactYourCocoaTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		3B3316D819C7A96900AF2D16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B3316D719C7A96900AF2D16 /* ReactYourCocoa.app */,
+				3B3316EF19C7A96900AF2D16 /* ReactYourCocoaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B3316D919C7A96900AF2D16 /* ReactYourCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				3B49838D19C7FE7600F92332 /* Models */,
+				3B33173D19C7D88200AF2D16 /* Assets */,
+				3B33173619C7B12D00AF2D16 /* Classes */,
+				3B33172C19C7AFE200AF2D16 /* App */,
+				3B33172819C7AFBB00AF2D16 /* Views */,
+				3B3316E619C7A96900AF2D16 /* Images.xcassets */,
+				3B3316DE19C7A96900AF2D16 /* ReactYourCocoa.xcdatamodeld */,
+				3B3316DA19C7A96900AF2D16 /* Supporting Files */,
+			);
+			path = ReactYourCocoa;
+			sourceTree = "<group>";
+		};
+		3B3316DA19C7A96900AF2D16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B3316DB19C7A96900AF2D16 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B3316F219C7A96900AF2D16 /* ReactYourCocoaTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B3316F519C7A96900AF2D16 /* ReactYourCocoaTests.swift */,
+				3B3316F319C7A96900AF2D16 /* Supporting Files */,
+			);
+			path = ReactYourCocoaTests;
+			sourceTree = "<group>";
+		};
+		3B3316F319C7A96900AF2D16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B3316F419C7A96900AF2D16 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B33172819C7AFBB00AF2D16 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3B33172919C7AFBB00AF2D16 /* ViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3B33172C19C7AFE200AF2D16 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3B33173019C7B05A00AF2D16 /* Main.storyboard */,
+				3B33173119C7B05A00AF2D16 /* LaunchScreen.xib */,
+				3B33172D19C7AFE200AF2D16 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3B33173619C7B12D00AF2D16 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3B49833A19C7FE6400F92332 /* Categories */,
+				3B49835319C7FE6400F92332 /* Clients */,
+				3B49835E19C7FE6400F92332 /* Constants */,
+				3B49836119C7FE6400F92332 /* Facades */,
+				3B49836219C7FE6400F92332 /* Managers */,
+				3B49836919C7FE6400F92332 /* Protocols */,
+				3B49836B19C7FE6400F92332 /* Third Party */,
+				3B33173719C7B14400AF2D16 /* Bridge */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3B33173719C7B14400AF2D16 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				3B4983A319C808ED00F92332 /* Constants.h */,
+				3B33173819C7B17000AF2D16 /* ReactYourCocoa-Bridging-Header.h */,
+				3B33173919C7B17100AF2D16 /* ReactYourCocoaTests-Bridging-Header.h */,
+				3B4983A419C8098A00F92332 /* Frameworks.h */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		3B33173D19C7D88200AF2D16 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3B33173E19C7D88200AF2D16 /* Images */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		3B33173E19C7D88200AF2D16 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3B4983A819C8343700F92332 /* logout-reactyourcocoa-btn@2x.png */,
+				3B4983A519C81F5100F92332 /* logo@2x.png */,
+				3B33173F19C7D88200AF2D16 /* login-facebook-btn-pressed.png */,
+				3B33174019C7D88200AF2D16 /* login-facebook-btn-pressed@2x.png */,
+				3B33174119C7D88200AF2D16 /* login-facebook-btn.png */,
+				3B33174219C7D88200AF2D16 /* login-facebook-btn@2x.png */,
+				3B33174319C7D88200AF2D16 /* login-twitter-btn-pressed.png */,
+				3B33174419C7D88200AF2D16 /* login-twitter-btn-pressed@2x.png */,
+				3B33174519C7D88200AF2D16 /* login-twitter-btn.png */,
+				3B33174619C7D88200AF2D16 /* login-twitter-btn@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		3B49833A19C7FE6400F92332 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				3B49833B19C7FE6400F92332 /* NSArray+ArrayManipulationMethods.h */,
+				3B49833C19C7FE6400F92332 /* NSArray+ArrayManipulationMethods.m */,
+				3B49833D19C7FE6400F92332 /* NSArray+EnumExtensions.h */,
+				3B49833E19C7FE6400F92332 /* NSArray+EnumExtensions.m */,
+				3B49833F19C7FE6400F92332 /* NSDate+DateFormatMethods.h */,
+				3B49834019C7FE6400F92332 /* NSDate+DateFormatMethods.m */,
+				3B49834319C7FE6400F92332 /* NSString+ArrayCreateMethods.h */,
+				3B49834419C7FE6400F92332 /* NSString+ArrayCreateMethods.m */,
+				3B49834519C7FE6400F92332 /* NSString+StringMethods.h */,
+				3B49834619C7FE6400F92332 /* NSString+StringMethods.m */,
+				3B49834719C7FE6400F92332 /* NSTimer+Blocks.h */,
+				3B49834819C7FE6400F92332 /* NSTimer+Blocks.m */,
+				3B49834919C7FE6400F92332 /* UIColor+AppColorMethods.h */,
+				3B49834A19C7FE6400F92332 /* UIColor+AppColorMethods.m */,
+				3B49834B19C7FE6400F92332 /* UIColor+CreateMethods.h */,
+				3B49834C19C7FE6400F92332 /* UIColor+CreateMethods.m */,
+				3B49834F19C7FE6400F92332 /* UIView+AnimateHidden.h */,
+				3B49835019C7FE6400F92332 /* UIView+AnimateHidden.m */,
+				3B49835119C7FE6400F92332 /* UIViewController+BackButtonHandler.h */,
+				3B49835219C7FE6400F92332 /* UIViewController+BackButtonHandler.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		3B49835319C7FE6400F92332 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				3B49835419C7FE6400F92332 /* EWFacebookGraphApiClient.h */,
+				3B49835519C7FE6400F92332 /* EWFacebookGraphApiClient.m */,
+				3B49835619C7FE6400F92332 /* EWFacebookParseUserClient.h */,
+				3B49835719C7FE6400F92332 /* EWFacebookParseUserClient.m */,
+				3B49835819C7FE6400F92332 /* EWParseCloudCodeApiClient.h */,
+				3B49835919C7FE6400F92332 /* EWParseCloudCodeApiClient.m */,
+				3B49835A19C7FE6400F92332 /* EWParseObjectsApiClient.h */,
+				3B49835B19C7FE6400F92332 /* EWParseObjectsApiClient.m */,
+				3B49835C19C7FE6400F92332 /* EWTwitterApiParseUserClient.h */,
+				3B49835D19C7FE6400F92332 /* EWTwitterApiParseUserClient.m */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		3B49835E19C7FE6400F92332 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				3B49835F19C7FE6400F92332 /* EWFacebookPermissions.h */,
+				3B49836019C7FE6400F92332 /* EWFacebookPermissions.m */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		3B49836119C7FE6400F92332 /* Facades */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Facades;
+			sourceTree = "<group>";
+		};
+		3B49836219C7FE6400F92332 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				3B49836319C7FE6400F92332 /* EWMessagesManager.h */,
+				3B49836419C7FE6400F92332 /* EWMessagesManager.m */,
+				3B49836519C7FE6400F92332 /* EWMessagingManager.h */,
+				3B49836619C7FE6400F92332 /* EWMessagingManager.m */,
+				3B49836719C7FE6400F92332 /* EWSocialNetworksContactsManager.h */,
+				3B49836819C7FE6400F92332 /* EWSocialNetworksContactsManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		3B49836919C7FE6400F92332 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3B49836A19C7FE6400F92332 /* EWModalViewControllerProtocol.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		3B49836B19C7FE6400F92332 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				3B49836F19C7FE6400F92332 /* iOSPulldownMenu */,
+			);
+			path = "Third Party";
+			sourceTree = "<group>";
+		};
+		3B49836F19C7FE6400F92332 /* iOSPulldownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				3B49837019C7FE6400F92332 /* LICENSE */,
+				3B49837119C7FE6400F92332 /* PulldownMenu.h */,
+				3B49837219C7FE6400F92332 /* PulldownMenu.m */,
+				3B49837319C7FE6400F92332 /* README.md */,
+			);
+			path = iOSPulldownMenu;
+			sourceTree = "<group>";
+		};
+		3B49838D19C7FE7600F92332 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3B49838E19C7FE7600F92332 /* EWMessage.h */,
+				3B49838F19C7FE7600F92332 /* EWMessage.m */,
+				3B49839019C7FE7600F92332 /* EWMessageSession.h */,
+				3B49839119C7FE7600F92332 /* EWMessageSession.m */,
+				3B49839219C7FE7600F92332 /* EWRecipient.h */,
+				3B49839319C7FE7600F92332 /* EWRecipient.m */,
+				3B49839419C7FE7600F92332 /* EWUser.h */,
+				3B49839519C7FE7600F92332 /* EWUser.m */,
+				3B49839619C7FE7600F92332 /* EWUserSocialData.h */,
+				3B49839719C7FE7600F92332 /* EWUserSocialData.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		545A00A712164B5BA48F0178 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C7D0F1C235F49D4B66C9349 /* libPods-ReactYourCocoa.a */,
+				93FE3289D74A41E5AE8CF37A /* libPods-ReactYourCocoaTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B3316D619C7A96900AF2D16 /* ReactYourCocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B3316F919C7A96900AF2D16 /* Build configuration list for PBXNativeTarget "ReactYourCocoa" */;
+			buildPhases = (
+				96FE87CBE0734DD79916360A /* Check Pods Manifest.lock */,
+				3B3316D319C7A96900AF2D16 /* Sources */,
+				3B3316D419C7A96900AF2D16 /* Frameworks */,
+				3B3316D519C7A96900AF2D16 /* Resources */,
+				83EADBD4F53F4E39BB1FEE3F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactYourCocoa;
+			productName = ReactYourCocoa;
+			productReference = 3B3316D719C7A96900AF2D16 /* ReactYourCocoa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B3316EE19C7A96900AF2D16 /* ReactYourCocoaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B3316FC19C7A96900AF2D16 /* Build configuration list for PBXNativeTarget "ReactYourCocoaTests" */;
+			buildPhases = (
+				C51736FE72244D2CBEC1E52E /* Check Pods Manifest.lock */,
+				3B3316EB19C7A96900AF2D16 /* Sources */,
+				3B3316EC19C7A96900AF2D16 /* Frameworks */,
+				3B3316ED19C7A96900AF2D16 /* Resources */,
+				D52C4703F84A4C2FA517BDFF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B3316F119C7A96900AF2D16 /* PBXTargetDependency */,
+			);
+			name = ReactYourCocoaTests;
+			productName = ReactYourCocoaTests;
+			productReference = 3B3316EF19C7A96900AF2D16 /* ReactYourCocoaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B3316CF19C7A96900AF2D16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Excentrix Web, Inc.";
+				TargetAttributes = {
+					3B3316D619C7A96900AF2D16 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = J56BEKJA4Y;
+					};
+					3B3316EE19C7A96900AF2D16 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 3B3316D619C7A96900AF2D16;
+					};
+				};
+			};
+			buildConfigurationList = 3B3316D219C7A96900AF2D16 /* Build configuration list for PBXProject "ReactYourCocoa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B3316CE19C7A96900AF2D16;
+			productRefGroup = 3B3316D819C7A96900AF2D16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B3316D619C7A96900AF2D16 /* ReactYourCocoa */,
+				3B3316EE19C7A96900AF2D16 /* ReactYourCocoaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B3316D519C7A96900AF2D16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B33175519C7D88200AF2D16 /* login-twitter-btn@2x.png in Resources */,
+				3B4983A619C81F5100F92332 /* logo@2x.png in Resources */,
+				3B33174D19C7D88200AF2D16 /* login-facebook-btn@2x.png in Resources */,
+				3B33175119C7D88200AF2D16 /* login-twitter-btn-pressed@2x.png in Resources */,
+				3B3316E719C7A96900AF2D16 /* Images.xcassets in Resources */,
+				3B33174719C7D88200AF2D16 /* login-facebook-btn-pressed.png in Resources */,
+				3B33174B19C7D88200AF2D16 /* login-facebook-btn.png in Resources */,
+				3B49838A19C7FE6400F92332 /* LICENSE in Resources */,
+				3B33173419C7B05A00AF2D16 /* LaunchScreen.xib in Resources */,
+				3B33175319C7D88200AF2D16 /* login-twitter-btn.png in Resources */,
+				3B33174F19C7D88200AF2D16 /* login-twitter-btn-pressed.png in Resources */,
+				3B33174919C7D88200AF2D16 /* login-facebook-btn-pressed@2x.png in Resources */,
+				3B4983A919C8343700F92332 /* logout-reactyourcocoa-btn@2x.png in Resources */,
+				3B33173219C7B05A00AF2D16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3316ED19C7A96900AF2D16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B33173519C7B05A00AF2D16 /* LaunchScreen.xib in Resources */,
+				3B4983A719C81F5100F92332 /* logo@2x.png in Resources */,
+				3B33173319C7B05A00AF2D16 /* Main.storyboard in Resources */,
+				3B33174C19C7D88200AF2D16 /* login-facebook-btn.png in Resources */,
+				3B4983AA19C8343700F92332 /* logout-reactyourcocoa-btn@2x.png in Resources */,
+				3B33175619C7D88200AF2D16 /* login-twitter-btn@2x.png in Resources */,
+				3B33175419C7D88200AF2D16 /* login-twitter-btn.png in Resources */,
+				3B33175019C7D88200AF2D16 /* login-twitter-btn-pressed.png in Resources */,
+				3B33175219C7D88200AF2D16 /* login-twitter-btn-pressed@2x.png in Resources */,
+				3B33174A19C7D88200AF2D16 /* login-facebook-btn-pressed@2x.png in Resources */,
+				3B33174819C7D88200AF2D16 /* login-facebook-btn-pressed.png in Resources */,
+				3B33174E19C7D88200AF2D16 /* login-facebook-btn@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83EADBD4F53F4E39BB1FEE3F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-ReactYourCocoa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96FE87CBE0734DD79916360A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C51736FE72244D2CBEC1E52E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D52C4703F84A4C2FA517BDFF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-ReactYourCocoaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B3316D319C7A96900AF2D16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B49837E19C7FE6400F92332 /* UIView+AnimateHidden.m in Sources */,
+				3B49837419C7FE6400F92332 /* NSArray+ArrayManipulationMethods.m in Sources */,
+				3B49838419C7FE6400F92332 /* EWTwitterApiParseUserClient.m in Sources */,
+				3B49839819C7FE7600F92332 /* EWMessage.m in Sources */,
+				3B33172E19C7AFE200AF2D16 /* AppDelegate.swift in Sources */,
+				3B49838B19C7FE6400F92332 /* PulldownMenu.m in Sources */,
+				3B49837C19C7FE6400F92332 /* UIColor+CreateMethods.m in Sources */,
+				3B49837819C7FE6400F92332 /* NSString+ArrayCreateMethods.m in Sources */,
+				3B49839A19C7FE7600F92332 /* EWMessageSession.m in Sources */,
+				3B49839E19C7FE7600F92332 /* EWUser.m in Sources */,
+				3B49838019C7FE6400F92332 /* EWFacebookGraphApiClient.m in Sources */,
+				3B49837B19C7FE6400F92332 /* UIColor+AppColorMethods.m in Sources */,
+				3B49838619C7FE6400F92332 /* EWMessagesManager.m in Sources */,
+				3B49837619C7FE6400F92332 /* NSDate+DateFormatMethods.m in Sources */,
+				3B49837519C7FE6400F92332 /* NSArray+EnumExtensions.m in Sources */,
+				3B49838219C7FE6400F92332 /* EWParseCloudCodeApiClient.m in Sources */,
+				3B49838C19C7FE6400F92332 /* README.md in Sources */,
+				3B33172A19C7AFBB00AF2D16 /* ViewController.swift in Sources */,
+				3B49837F19C7FE6400F92332 /* UIViewController+BackButtonHandler.m in Sources */,
+				3B49838719C7FE6400F92332 /* EWMessagingManager.m in Sources */,
+				3B49838519C7FE6400F92332 /* EWFacebookPermissions.m in Sources */,
+				3B3316E019C7A96900AF2D16 /* ReactYourCocoa.xcdatamodeld in Sources */,
+				3B49837919C7FE6400F92332 /* NSString+StringMethods.m in Sources */,
+				3B49838319C7FE6400F92332 /* EWParseObjectsApiClient.m in Sources */,
+				3B49837A19C7FE6400F92332 /* NSTimer+Blocks.m in Sources */,
+				3B49838819C7FE6400F92332 /* EWSocialNetworksContactsManager.m in Sources */,
+				3B4983A019C7FE7600F92332 /* EWUserSocialData.m in Sources */,
+				3B49838119C7FE6400F92332 /* EWFacebookParseUserClient.m in Sources */,
+				3B49839C19C7FE7600F92332 /* EWRecipient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3316EB19C7A96900AF2D16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B33172F19C7AFE200AF2D16 /* AppDelegate.swift in Sources */,
+				3B33172B19C7AFBB00AF2D16 /* ViewController.swift in Sources */,
+				3B49839F19C7FE7600F92332 /* EWUser.m in Sources */,
+				3B3316F619C7A96900AF2D16 /* ReactYourCocoaTests.swift in Sources */,
+				3B49839B19C7FE7600F92332 /* EWMessageSession.m in Sources */,
+				3B4983A119C7FE7600F92332 /* EWUserSocialData.m in Sources */,
+				3B49839919C7FE7600F92332 /* EWMessage.m in Sources */,
+				3B49839D19C7FE7600F92332 /* EWRecipient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B3316F119C7A96900AF2D16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B3316D619C7A96900AF2D16 /* ReactYourCocoa */;
+			targetProxy = 3B3316F019C7A96900AF2D16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B3316F719C7A96900AF2D16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B3316F819C7A96900AF2D16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B3316FA19C7A96900AF2D16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF1852F789A145879B44EA57 /* Pods-ReactYourCocoa.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDK",
+					/Users/twright/Documents/FacebookSDK,
+				);
+				INFOPLIST_FILE = ReactYourCocoa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ReactYourCocoa/Classes/Bridge/ReactYourCocoa-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B3316FB19C7A96900AF2D16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF1852F789A145879B44EA57 /* Pods-ReactYourCocoa.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDK",
+					/Users/twright/Documents/FacebookSDK,
+				);
+				INFOPLIST_FILE = ReactYourCocoa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ReactYourCocoa/Classes/Bridge/ReactYourCocoa-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		3B3316FD19C7A96900AF2D16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 927FB4802BC34633B8F8B27C /* Pods-ReactYourCocoaTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDK",
+					/Users/twright/Documents/FacebookSDK,
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ReactYourCocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ReactYourCocoa/Classes/Bridge/ReactYourCocoaTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactYourCocoa.app/ReactYourCocoa";
+			};
+			name = Debug;
+		};
+		3B3316FE19C7A96900AF2D16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 927FB4802BC34633B8F8B27C /* Pods-ReactYourCocoaTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDK",
+					/Users/twright/Documents/FacebookSDK,
+				);
+				INFOPLIST_FILE = ReactYourCocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ReactYourCocoa/Classes/Bridge/ReactYourCocoaTests-Bridging-Header.h";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactYourCocoa.app/ReactYourCocoa";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B3316D219C7A96900AF2D16 /* Build configuration list for PBXProject "ReactYourCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3316F719C7A96900AF2D16 /* Debug */,
+				3B3316F819C7A96900AF2D16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B3316F919C7A96900AF2D16 /* Build configuration list for PBXNativeTarget "ReactYourCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3316FA19C7A96900AF2D16 /* Debug */,
+				3B3316FB19C7A96900AF2D16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B3316FC19C7A96900AF2D16 /* Build configuration list for PBXNativeTarget "ReactYourCocoaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3316FD19C7A96900AF2D16 /* Debug */,
+				3B3316FE19C7A96900AF2D16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3B3316DE19C7A96900AF2D16 /* ReactYourCocoa.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3B3316DF19C7A96900AF2D16 /* ReactYourCocoa.xcdatamodel */,
+			);
+			currentVersion = 3B3316DF19C7A96900AF2D16 /* ReactYourCocoa.xcdatamodel */;
+			path = ReactYourCocoa.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3B3316CF19C7A96900AF2D16 /* Project object */;
+}
