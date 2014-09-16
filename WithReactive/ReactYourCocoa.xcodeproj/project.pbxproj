@@ -70,6 +70,8 @@
 		3B4983A719C81F5100F92332 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B4983A519C81F5100F92332 /* logo@2x.png */; };
 		3B4983A919C8343700F92332 /* logout-reactyourcocoa-btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B4983A819C8343700F92332 /* logout-reactyourcocoa-btn@2x.png */; };
 		3B4983AA19C8343700F92332 /* logout-reactyourcocoa-btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B4983A819C8343700F92332 /* logout-reactyourcocoa-btn@2x.png */; };
+		3BD481E719C8DE3500A55F47 /* FacebookLoginImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD481E619C8DE3500A55F47 /* FacebookLoginImpl.swift */; };
+		3BD481E819C8F0CC00A55F47 /* FacebookLoginImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD481E619C8DE3500A55F47 /* FacebookLoginImpl.swift */; };
 		D7AEDC5509C84EA198B1363F /* libPods-ReactYourCocoa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C7D0F1C235F49D4B66C9349 /* libPods-ReactYourCocoa.a */; };
 		DB8443C447EF413BA0B57E72 /* libPods-ReactYourCocoaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93FE3289D74A41E5AE8CF37A /* libPods-ReactYourCocoaTests.a */; };
 /* End PBXBuildFile section */
@@ -163,6 +165,7 @@
 		3B4983A419C8098A00F92332 /* Frameworks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Frameworks.h; sourceTree = "<group>"; };
 		3B4983A519C81F5100F92332 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
 		3B4983A819C8343700F92332 /* logout-reactyourcocoa-btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logout-reactyourcocoa-btn@2x.png"; sourceTree = "<group>"; };
+		3BD481E619C8DE3500A55F47 /* FacebookLoginImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookLoginImpl.swift; sourceTree = "<group>"; };
 		927FB4802BC34633B8F8B27C /* Pods-ReactYourCocoaTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactYourCocoaTests.xcconfig"; path = "Pods/Pods-ReactYourCocoaTests.xcconfig"; sourceTree = "<group>"; };
 		93FE3289D74A41E5AE8CF37A /* libPods-ReactYourCocoaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactYourCocoaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C7D0F1C235F49D4B66C9349 /* libPods-ReactYourCocoa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactYourCocoa.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -375,6 +378,7 @@
 		3B49836119C7FE6400F92332 /* Facades */ = {
 			isa = PBXGroup;
 			children = (
+				3BD481E519C8DE0D00A55F47 /* Reactive */,
 			);
 			path = Facades;
 			sourceTree = "<group>";
@@ -434,6 +438,14 @@
 				3B49839719C7FE7600F92332 /* EWUserSocialData.m */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		3BD481E519C8DE0D00A55F47 /* Reactive */ = {
+			isa = PBXGroup;
+			children = (
+				3BD481E619C8DE3500A55F47 /* FacebookLoginImpl.swift */,
+			);
+			path = Reactive;
 			sourceTree = "<group>";
 		};
 		545A00A712164B5BA48F0178 /* Frameworks */ = {
@@ -645,6 +657,7 @@
 				3B49837C19C7FE6400F92332 /* UIColor+CreateMethods.m in Sources */,
 				3B49837819C7FE6400F92332 /* NSString+ArrayCreateMethods.m in Sources */,
 				3B49839A19C7FE7600F92332 /* EWMessageSession.m in Sources */,
+				3BD481E719C8DE3500A55F47 /* FacebookLoginImpl.swift in Sources */,
 				3B49839E19C7FE7600F92332 /* EWUser.m in Sources */,
 				3B49838019C7FE6400F92332 /* EWFacebookGraphApiClient.m in Sources */,
 				3B49837B19C7FE6400F92332 /* UIColor+AppColorMethods.m in Sources */,
@@ -672,6 +685,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BD481E819C8F0CC00A55F47 /* FacebookLoginImpl.swift in Sources */,
 				3B33172F19C7AFE200AF2D16 /* AppDelegate.swift in Sources */,
 				3B33172B19C7AFBB00AF2D16 /* ViewController.swift in Sources */,
 				3B49839F19C7FE7600F92332 /* EWUser.m in Sources */,

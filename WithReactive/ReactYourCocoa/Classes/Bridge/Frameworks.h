@@ -13,4 +13,5 @@
 #import <ParseFacebookUtils/PFFacebookUtils.h>
 #import <Parse/Parse.h>
 #import <FacebookSDK/FacebookSDK.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
 #endif

@@ -7,30 +7,26 @@
 //
 
 import UIKit
+import EventKit
+import EventKitUI
+import Foundation
 
 class LoginViewController: UIViewController {
 
+    var faceBookLogin: FacebookLoginImpl?;
+    
+    required init(coder aDecoder: NSCoder) {
+        faceBookLogin = FacebookLoginImpl();
+        super.init(coder: aDecoder)
+    }
+    
     @IBOutlet var facebookLoginButton: UIButton!
     @IBOutlet var appLogoutButton: UIButton!
     @IBAction func facebookLoginTouch(sender: AnyObject)
     {
-        PFFacebookUtils.logInWithPermissions(EWFacebookPermissions.all(), {
-            (user: PFUser!, error: NSError!) -> Void in
-            if user == nil {
-                NSLog("Uh oh. The user cancelled the Facebook login.")
-            } else if user.isNew {
-                NSLog("User signed up and logged in through Facebook!")
-                self.obtainCompleteFacebookPermissions({
-                    self.checkButtonBindings()
-                    self.performSegueWithIdentifier("showMessages", sender: nil)
-                })
-            } else {
-                NSLog("User logged in through Facebook!")
-                self.obtainCompleteFacebookPermissions({
-                    self.checkButtonBindings()
-                    self.performSegueWithIdentifier("showMessages", sender: nil)
-                })
-            }
+        faceBookLogin?.loginAndUpdateFacebookPermissions({ () -> Void in            
+            self.checkButtonBindings()
+            self.performSegueWithIdentifier("showMessages", sender: nil)
         })
     }
     
@@ -74,54 +70,5 @@ class LoginViewController: UIViewController {
         }
     }
     
-    func obtainCompleteFacebookPermissions(completion: (() -> Void)? )
-    {
-        if (PFFacebookUtils.isLinkedWithUser(EWUser.currentUser())) {
-            var missingReadPermissions = [String]();
-            var missingPublishPermissions = [String]();
-            let allPermissions = EWFacebookPermissions.all() as [String]
-            let publishPermissions = EWFacebookPermissions.publish() as [String]
-            for permission in allPermissions {
-                if let activePermissions = FBSession.activeSession().permissions as? [String] {
-                    if (!contains(activePermissions, permission)) {
-                        if (contains(publishPermissions, permission)){
-                            missingPublishPermissions.append(permission);
-                        }
-                        else {
-                            missingReadPermissions.append(permission);
-                        }
-                    }
-                }
-            }
-            
-            if (!missingReadPermissions.isEmpty) {
-                FBSession.activeSession().requestNewReadPermissions(missingReadPermissions, completionHandler: { (session:FBSession!, error:NSError!) -> Void in
-                    if (error != nil) {
-                        NSLog("New read permissions granted")
-                        if ((completion) != nil){
-                            completion!();
-                        }
-                    }
-                })
-            }
-            else if (!missingPublishPermissions.isEmpty) {
-                PFFacebookUtils.reauthorizeUser(PFUser.currentUser(), withPublishPermissions:missingPublishPermissions,
-                    audience:FBSessionDefaultAudience.Everyone, {
-                        (succeeded: Bool!, error: NSError!) -> Void in
-                        if (succeeded != nil) {
-                            NSLog("User logged in through Facebook!")
-                            if ((completion) != nil){
-                                completion!();
-                            }
-                        }
-                })
-            }
-            else {
-                if ((completion) != nil){
-                    completion!();
-                }
-            }
-        }
-    }
 }
 
