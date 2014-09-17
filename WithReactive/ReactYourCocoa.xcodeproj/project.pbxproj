@@ -10,8 +10,8 @@
 		3B3316E019C7A96900AF2D16 /* ReactYourCocoa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B3316DE19C7A96900AF2D16 /* ReactYourCocoa.xcdatamodeld */; };
 		3B3316E719C7A96900AF2D16 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B3316E619C7A96900AF2D16 /* Images.xcassets */; };
 		3B3316F619C7A96900AF2D16 /* ReactYourCocoaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3316F519C7A96900AF2D16 /* ReactYourCocoaTests.swift */; };
-		3B33172A19C7AFBB00AF2D16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B33172919C7AFBB00AF2D16 /* ViewController.swift */; };
-		3B33172B19C7AFBB00AF2D16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B33172919C7AFBB00AF2D16 /* ViewController.swift */; };
+		3B33172A19C7AFBB00AF2D16 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B33172919C7AFBB00AF2D16 /* LoginViewController.swift */; };
+		3B33172B19C7AFBB00AF2D16 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B33172919C7AFBB00AF2D16 /* LoginViewController.swift */; };
 		3B33172E19C7AFE200AF2D16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B33172D19C7AFE200AF2D16 /* AppDelegate.swift */; };
 		3B33172F19C7AFE200AF2D16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B33172D19C7AFE200AF2D16 /* AppDelegate.swift */; };
 		3B33173219C7B05A00AF2D16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B33173019C7B05A00AF2D16 /* Main.storyboard */; };
@@ -94,7 +94,7 @@
 		3B3316EF19C7A96900AF2D16 /* ReactYourCocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactYourCocoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B3316F419C7A96900AF2D16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B3316F519C7A96900AF2D16 /* ReactYourCocoaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactYourCocoaTests.swift; sourceTree = "<group>"; };
-		3B33172919C7AFBB00AF2D16 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B33172919C7AFBB00AF2D16 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3B33172D19C7AFE200AF2D16 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B33173019C7B05A00AF2D16 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		3B33173119C7B05A00AF2D16 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
@@ -256,7 +256,7 @@
 		3B33172819C7AFBB00AF2D16 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				3B33172919C7AFBB00AF2D16 /* ViewController.swift */,
+				3B33172919C7AFBB00AF2D16 /* LoginViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -666,7 +666,7 @@
 				3B49837519C7FE6400F92332 /* NSArray+EnumExtensions.m in Sources */,
 				3B49838219C7FE6400F92332 /* EWParseCloudCodeApiClient.m in Sources */,
 				3B49838C19C7FE6400F92332 /* README.md in Sources */,
-				3B33172A19C7AFBB00AF2D16 /* ViewController.swift in Sources */,
+				3B33172A19C7AFBB00AF2D16 /* LoginViewController.swift in Sources */,
 				3B49837F19C7FE6400F92332 /* UIViewController+BackButtonHandler.m in Sources */,
 				3B49838719C7FE6400F92332 /* EWMessagingManager.m in Sources */,
 				3B49838519C7FE6400F92332 /* EWFacebookPermissions.m in Sources */,
@@ -687,7 +687,7 @@
 			files = (
 				3BD481E819C8F0CC00A55F47 /* FacebookLoginImpl.swift in Sources */,
 				3B33172F19C7AFE200AF2D16 /* AppDelegate.swift in Sources */,
-				3B33172B19C7AFBB00AF2D16 /* ViewController.swift in Sources */,
+				3B33172B19C7AFBB00AF2D16 /* LoginViewController.swift in Sources */,
 				3B49839F19C7FE7600F92332 /* EWUser.m in Sources */,
 				3B3316F619C7A96900AF2D16 /* ReactYourCocoaTests.swift in Sources */,
 				3B49839B19C7FE7600F92332 /* EWMessageSession.m in Sources */,
